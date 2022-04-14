@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 5em;
+}
+body td, body th {
+  border: 1px solid black;
+  padding-left: 1em;
+  height: 20px;
+}
+body table {
+  border-collapse: collapse;
+  margin-bottom: 0.2em;
+  width: 100%;
+}
+body .main {
+  margin: 0 10em 0 10em;
+  display: grid;
+}
+body .main .nav {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+}
+body .main .nav .logo img {
+  width: 300px;
+}
+body .main .nav .title {
+  justify-self: center;
+  text-align: center;
+  padding-right: 10em;
+}
+body .main .table .tableTop .table1 td input {
+  width: 68%;
+  margin-left: 1em;
+  background-color: rgb(234, 230, 230);
+  border: none;
+}
+body .main .table .tableTop .table1 td .check {
+  width: inherit;
+}
+body .main .table .tableTop .table1 td textarea {
+  width: 100%;
+  padding: 0;
+}
+body .main .table .tableTop .table1 .red {
+  color: red;
+}
+body .main .table .tableTop .table1 .red td {
+  height: 3em;
+}
+body .main .table .tableTop .table1 .red td input {
+  padding: 0.2em;
+}
+body .main .table .tableTop .table1 .area {
+  padding: 0;
+}
+body .main .table .tableBottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 7px;
+  width: 100%;
+}
+body .main .table .tableBottom th, body .main .table .tableBottom td {
+  height: 2em;
+}
+body .main .table .tableBottom th input, body .main .table .tableBottom td input {
+  width: 100%;
+  border: none;
+  background-color: rgb(234, 230, 230);
+}
+body .main .table .tableBottom .yellow {
+  background-color: yellow;
+}
+body .main .table .tableBottom .blue {
+  background-color: #788e9e;
+}
+body .main .table .tableBottom .item {
+  text-align: left;
+}
+body .main .table .tableBottom .noBorder {
+  border: none;
+  text-align: right;
+}
+body .main .details {
+  display: grid;
+  width: 100%;
+}
+body .main .details .tab {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 4em;
+  width: 100%;
+}
+body .main .details .tab input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 50%;
+}
+body .main .details .tab .date {
+  width: 12%;
+}/*# sourceMappingURL=main.css.map */
